@@ -1,0 +1,75 @@
+header{
+    background-color: rgb(93, 93, 222); /*Color de fondo */
+    border: 5px chartreuse; /* Color y tamaño del borde */
+    width: 800px; /*Ancho*/
+    height: 200px; /*Alto*/
+    margin: 5px;  /*Margen*/
+    border-radius: 10px; /*bordes redondeados*/
+}
+
+main{
+    width: 800px; /*Ancho*/
+    height: 400px; /*Alto*/
+}
+#usuario{
+    width: 130px; /*Ancho*/
+    height: 20px; /*Alto*/
+    
+}
+#password{
+    width: 130px; /*Ancho*/
+    height: 20px; /*Alto*/
+}
+nav{
+    background-color: rgb(117, 169, 117); /*Color de fondo */
+    width: 150px; /*Ancho*/
+    height: 390px; /*Alto*/
+    float: left;/*Ubicación en la parte izquierda*/
+    margin: 5px; /*Margen*/
+    border-radius: 10px; /*bordes redondeados*/
+    padding-left: 10px;
+}
+section{
+    background-color: rgb(184, 13, 13); /*Color de fondo */
+    width: 450px; /*Ancho*/
+    height: 390px; /*Alto*/
+    float: left;/*Ubicación en la parte izquierda*/
+    margin: 5px; /*Margen*/
+    border-radius: 10px; /*bordes redondeados*/
+}
+#animales{
+    background-color: rgb(201, 68, 68); /*Color de fondo */
+    width: 440px; /*Ancho*/
+    height: 120px; /*Alto*/
+    float: left;/*Ubicación en la parte izquierda*/
+    margin: 5px; /*Margen*/
+}
+#comida{
+    background-color: rgb(201, 68, 68); /*Color de fondo */
+    width: 440px; /*Ancho*/
+    height: 120px; /*Alto*/
+    float: left;/*Ubicación en la parte izquierda*/
+    margin: 5px; /*Margen*/
+}
+#países{
+    background-color: rgb(201, 68, 68); /*Color de fondo */
+    width: 440px; /*Ancho*/
+    height: 120px; /*Alto*/
+    float: left;/*Ubicación en la parte izquierda*/
+    margin: 5px; /*Margen*/
+}
+aside{
+    background-color: #e98d14; /*Color de fondo */
+    width: 160px; /*Ancho*/
+    height: 390px; /*Alto*/
+    float: left;/*Ubicación en la parte izquierda*/
+    margin: 5px; /*Margen*/
+    border-radius: 10px; /*bordes redondeados*/
+}
+footer{
+    background-color: rgb(166, 90, 152); /*Color de fondo */
+    width: 800px; /*Ancho*/
+    height: 150px; /*Alto*/
+    margin: 5px; /*Margen*/
+    border-radius: 10px; /*bordes redondeados*/
+}

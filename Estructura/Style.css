@@ -1,0 +1,66 @@
+header{
+    background-color: gray; /*Color de fondo */
+    border: 5px chartreuse; /* Color y tamaño del borde */
+    width: 770px; /*Ancho*/
+    height: 200px; /*Alto*/
+    margin: 5px;  /*Margen*/
+    border-radius: 10px; /*bordes redondeados*/
+}
+
+main{
+    width: 780px; /*Ancho*/
+    height: 400px; /*Alto*/
+}
+nav{
+    background-color: gray; /*Color de fondo */
+    width: 150px; /*Ancho*/
+    height: 390px; /*Alto*/
+    float: left;/*Ubicación en la parte izquierda*/
+    margin: 5px; /*Margen*/
+    border-radius: 10px; /*bordes redondeados*/
+}
+section{
+    background-color: gray; /*Color de fondo */
+    width: 450px; /*Ancho*/
+    height: 390px; /*Alto*/
+    float: left;/*Ubicación en la parte izquierda*/
+    margin: 5px; /*Margen*/
+    border-radius: 10px; /*bordes redondeados*/
+}
+#primero{
+    background-color: burlywood; /*Color de fondo */
+    width: 440px; /*Ancho*/
+    height: 120px; /*Alto*/
+    float: left;/*Ubicación en la parte izquierda*/
+    margin: 5px; /*Margen*/
+}
+#segundo{
+    background-color: burlywood; /*Color de fondo */
+    width: 440px; /*Ancho*/
+    height: 120px; /*Alto*/
+    float: left;/*Ubicación en la parte izquierda*/
+    margin: 5px; /*Margen*/
+}
+#tercero{
+    background-color: burlywood; /*Color de fondo */
+    width: 440px; /*Ancho*/
+    height: 120px; /*Alto*/
+    float: left;/*Ubicación en la parte izquierda*/
+    margin: 5px; /*Margen*/
+}
+aside{
+    background-color: gray; /*Color de fondo */
+    width: 150px; /*Ancho*/
+    height: 390px; /*Alto*/
+    float: left;/*Ubicación en la parte izquierda*/
+    margin: 5px; /*Margen*/
+    border-radius: 10px; /*bordes redondeados*/
+}
+footer{
+    background-color: gray; /*Color de fondo */
+    width: 770px; /*Ancho*/
+    height: 390px; /*Alto*/
+    float: left;/*Ubicación en la parte izquierda*/
+    margin: 5px; /*Margen*/
+    border-radius: 10px; /*bordes redondeados*/
+}
