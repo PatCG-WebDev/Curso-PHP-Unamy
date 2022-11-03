@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa</title>
+</head>
+<body>
+    <div id="mapa" style="height: 500px; width:100%;"></div>  <!--En este div se va a mostrar el mapa --> <!--debemos darle un estilo al id mapa para que se muestre, un ancho, alto...-->
+    <script src="https://maps.googleapis.com/maps/api/js?jey=AIzaSyBgZZK8umUqJn8d5CoIZqWPJ_qtMfqD9q0&callback=initMap" async defer> 
+    // async defer se añade para que la comunicación sea encriptada y tenga más seguridad a la hora de mostrar el mapa--> <!--esta url la aporta el profesor ya que las apis de google maps son de pago. Sólo se pueden hacer pruebas con ellas. Si quieres mostrar la ubicación en una web tienes que pagar por la api.-->
+    </script> 
+
+
+    <script>
+        function initMap(){
+            mapa = new google.maps.Map(document.getElementById('mapa'), {center: {lat:13.794185, lng:-88.89653}, zoom: 18});
+            // en esta función lo que hacemos es dar unas coordenadas al mapa para mostrar.
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocalizar</title>
+</head>
+<body>
+    <button onclick="getLocation()">Ubicación</button> <!--Aquí creamos el botón que pulsaremos para obterner la localización. GetLocation es una función de javascript-->
+    <p id="Localización"></p> <!--Este p lo vamos a llamar desde JavaScript para que nos muestre el texto de la geolocalización-->
+
+    <script> 
+        var geo = document.getElementById("Localización"); 
+        // Es la función que mandamos llamar desde Button onclick
+        function getLocation(){
+            if (navigator.geolocation){ 
+                // Si el navegador soporta la geolocalización muestra lo siguiente:
+                navigator.geolocation.getCurrentPosition(ShowPosition);
+            }
+            // Muestra la geolocaliación a través del navegador
+                
+            else{
+                geo.innerHTML = "No es compatible la geolocalización"
+            }
+            // Si no lo soporta muestra este mensaje.
+        }
+        
+        function ShowPosition(Position){
+            geo.innerHTML = "Latitud: " + position.coords.latitude + "<br> Longitud: " + position.coords.longitude;
+        }
+        // Con esta función muestra las coordenadas obtenidas del navegador
+    </script>
+</body>
+</html>

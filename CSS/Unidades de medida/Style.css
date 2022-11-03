@@ -1,0 +1,27 @@
+/* body{
+    font-size: 24px;
+}
+
+h1{
+
+}
+
+p{
+    font-size: 2em;  /* equivale a 32px porque 1em = 16px */ /* si ponemos un body de 24px el p al final resultará de 24px + los 32px que le da el font-size del p */
+/*} */
+
+/* h1{
+    font-size: 1in;
+}
+
+h2{
+    font-size: 1cm;
+}
+
+p{
+    font-size: 10mm;
+} */
+
+/*  div{
+    width: 50%;
+}*/

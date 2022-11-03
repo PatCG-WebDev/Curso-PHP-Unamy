@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiantes</title>
+</head>
+<body>
+    <canvas width="150" height="150" id="canvas">No se muestra</canvas>
+
+    <script type="application/javascript">
+        var canvas = document.getElementById("canvas");/* lienzo */
+        var ctx = canvas.getContext("2d");/* pincel */
+        var gradiante = ctx.createLinearGradient(0,0,0,canvas.height); /* los 2 primeros números es donde iniciamos y el 3º es el ancho. Con el canvas.height lo que indicamos es que queremos que ocupe todo el alto del lienza canvas*/
+        gradiante.addColorStop(0,'#fff');/* indicamos el primer color (Blanco)*/
+        gradiante.addColorStop(1,'#000'); /* segudno color (Negro)*/
+        ctx.fillStyle = grandiante; /* se rellena pero con gradiante */
+        ctx.fillRect(0,0,canvas.width,canvas.height);/* creamos la figura. iniciaría en el pto 0,0, y ocuparía todo el lienzo canvas */
+    </script>
+</body>
+</html>

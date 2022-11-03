@@ -1,0 +1,56 @@
+/* *{
+    font-size: 50px; /* tamaño de la letra. El asterisco le agrega estilo a toda la página*/
+/* h1{
+    background-color: blueviolet;
+}
+
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Tipo de letra */
+/*  font-size:48px ;/* Tamaño letra */
+/*  color:rgb(65, 165, 42)
+}
+
+p{
+    text-align: center; /* para alinear el texto, en este caso centrado */
+/*h1,h2, h3, h4, h5, h6, p, a{
+        color:red;
+        background-color: black;
+    }
+}*/
+/*
+a.párrafo{
+    color: white;
+    font-size: 48px;
+    background-color: black;
+}
+
+.párrafo2{
+    color: white;
+    font-size: 24px;
+    background-color: black;
+}
+ */
+/*  
+ p a{
+    background-color: greenyellow;
+ }*/
+
+ /*  h1 > p >a {
+    color: coral;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkslategray;
+ }*/
+/*  
+ h2 + h3{
+    color: fuchsia;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }*/
+ /*  
+ [class]{
+    color:red;
+    font-size: 48px;
+    background-color: blueviolet;
+ }*/
+ 

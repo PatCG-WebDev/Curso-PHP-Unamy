@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figura</title>
+</head>
+<body>
+    <canvas width="150" height="150" id="canvas"></canvas>
+
+    <script type="application/javascript">
+        var canvas = document.getElementById("canvas");/* esto es el lienzo */
+        var ctx = canvas.getContext("2d"); /* esto es el pincel */
+        ctx.fillStyle = "rgb(200,0,0)"; /*Le damos una orden al pincel. Es el color que va a tener una figura */
+        ctx.fillRect(10,10,100,100);/* Este ctx.fillRect hace referencia a un rectangulo que está colocado en las coordenadas 10,10  y con unas dimensiones de 100px x 100px*/
+        ctx.fillStyle = "rgba(0,0,200,0.5)"; /* Creamos otra figura con otro color. el 0.5 otorga transparencia a la figura*/
+        ctx.fillRect(30,30,100,100); /* los 2 primeros son las coordenadas donde se coloca el rectángulo y los 2 últimas son las dimensiones */
+    </script>
+</body>
+</html>

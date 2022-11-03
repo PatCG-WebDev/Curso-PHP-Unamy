@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datalist atributos</title>
+</head>
+<body>
+    <form action="">
+        <input type="text" id="input1" list="milista">
+        <Datalist id="milista"> <!--Crea una lista que podemos seleccionar dentro de un formulario.
+        El nombre que pongamos en "list" debe ser el mismo que pongamos en la "id" del datalist, si no no mostrará la lista.-->
+            <option value="Juan"></option>
+            <option value="Carlos"></option>
+            <option value="Andrea"></option>
+            <option value="Alejandra"></option>
+            <option value="María"></option>
+        </Datalist>
+    </form>
+    <br>
+    <br>
+    <form action="">
+        <textarea name="" id="" cols="100" rows="10" placeholder="Ingresa tus datos"></textarea>
+        <!--Es una zona donde se puede escribir y que además se puede estirar o encoger. El "rows" hace refencia al alto, o filas, y el "cols" al cnaho o columnas. El PlaceHolder permite introducir un texto como marca de agua en el recuadro para el usuario sepa lo que tiene que hacer en el, pero cuando el usuario empieza a escribir ese texto desaparece.-->
+        <br>
+        <br>
+        <input type="text" required> <!--El Required nos obliga a escribir algo en el recuadro antes de darle a enviar-->
+        <input type="submit" name="Enviar">
+        <br>
+        <br>
+        <input type="file" multiple> <!--Permite seleccionar un archivo, si añadimos el atributro "mnultiple"podemos añadir varios archivos, si no sólo 1.-->
+    </form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción</title>
+</head>
+<body>
+    <canvas id="canvas" width="150" height="150"></canvas>
+    <!--Debemos poner un id para remarcar unas etiquetas de otras y para trabajar con otros lenguajes de programación como php o en este caso JavaScript-->
+<!--Para trabajar con canvas debemos hacerlo a través de java script, por lo tanto deberíamos añadir al script un src con el enlace del archivo java script.-->
+    <script type="application/javascript">
+        var canvas = document.getElementById("canvas");
+        /* con el document.getElementById hacemos referencia a la etiqueta canva de arriba */
+        var ctx = canvas.getContext("2d")
+        /* El ctx hace referencia al pincel, marcador, lápiz....del lienzo que es la etiqueta canvas.
+        Creamos el lápiz en el lienzo canvas en un contexto de 2d. */
+        ctx.fillRect(0,0,50,50);
+        /* fillrect es un rectángulo con relleno, ubicado en el eje X en 0, en el eje Y en 0 y tendrá unas dimensiones de 50x50 px*/
+    </script>
+</body>
+</html>

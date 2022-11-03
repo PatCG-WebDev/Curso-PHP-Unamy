@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lineto</title>
+</head>
+<body>
+    <canvas width="150" height="150" id="canvas"></canvas>
+
+    <script type="application/javascript">
+        var canvas = document.getElementById("canvas");/* lienzo */
+        var ctx = canvas.getContext("2d"); /* pincel */
+        ctx.fillStyle = ("green")
+        ctx.beginPath(); /* iniciarmos el dibujo en el punto 25,25 */
+        ctx.moveTo(25,25); /* colocar el lápiz/pincel en un lugar concreto para empezar a dibujar */
+        ctx.lineTo(105,25);/* lo que hace el pincel es dibujar una línea (lineto) desde el punto indicado anteriormente (25,25) hasta el punto que le indico ahora (105,25) */
+        ctx.lineTo(25,105);
+        ctx.closePath();/* Regresa al punto origen, 25,25 */
+        ctx.fill(); /* rellena el dibujo */
+        ctx.beginPath();
+        ctx.moveTo(125,125);
+        ctx.lineTo(125,45);
+        ctx.lineTo(45,125);
+        ctx.closePath();
+        ctx.stroke();/* pinta el contorno de la figura */
+
+    </script>
+</body>
+</html>
