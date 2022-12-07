@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 9</title>
+    <style>
+        .formulario1{
+            border: 1px solid;
+            padding: 10px;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+    <form action="" class="formulario1"> <b>Datos Personales</b>
+        <h2>Provincia</h2>
+        <input type="text" list="lista"><!-- el list es como un id que de manda llamar desde un datalist para colocar las opciones de los elementos que se muestran en la lista-->
+        <h2>Fecha de nacimiento</h2>
+        <input type="date">
+        <h2>Temas de interés</h2>
+        <input type="text" list="lista2">
+        <datalist id="lista">
+            <option value="A Coruña"></option>
+            <option value="Lugo"></option>
+            <option value="Ourense"></option>
+            <option value="Pontevedra"></option>
+        </datalist>
+        <datalist id="lista2">
+            <option value="Administración de bases de datos"></option>
+            <option value="Análisis y programación"></option>
+            <option value="Arquitectura"></option>
+            <option value="Calidad"></option>
+            <option value="ERP,CRM, Business Inteligence"></option>
+        </datalist>
+    </form>
+</body>
+</html>

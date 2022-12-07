@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <style>
+        table{
+            text-align: center;
+        }
+        th{ 
+            background-color: chocolate;
+            font-weight: bold; /* negrita */
+            font-size: 24px;
+            padding: 10px;
+        }
+        td{
+            background-color: coral;
+            font-weight: bold;
+            font-size: 20px;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" width="500" height="500">
+        <tr><!-- fila -->
+            <th rowspan="2" colspan="2"></th> <!-- encabezado, celda en blanco. Como esta celda abarca 2 columnas, debemos darle el tamaño de 2 columnas utilizando el rowpan para las 2 filas y el colspan para las 2 columnas.-->
+            <th rowspan=2>Columna 1</th><!-- esta celda sólo abarca 2 filas, por eso utilizamos el rowspan.-->
+            <th colspan="2">Columna 2</th>
+        </tr>
+        <tr>
+            <th>Columna 2a</th>
+            <th>Clumna 2b</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Fila 1</th>
+            <th>Fila 1a</th>
+            <td>123</td>
+            <td>456</td>
+            <td>789</td>
+        </tr>
+        <tr>
+            <th>Fila 1b</th>
+            <td>123</td>
+            <td>456</td>
+            <td>789</td>
+        </tr>
+        <tr>
+            <th colspan="2">Fila 2</th>
+            <td>123</td>
+            <td>456</td>
+            <td>789</td>
+        </tr>
+    </table>
+</body>
+</html>

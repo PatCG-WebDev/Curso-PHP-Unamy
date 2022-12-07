@@ -1,0 +1,199 @@
+/*  h1{
+    color: burlywood;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+p{
+    color:blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-style: bold;
+    font-variant: unset;
+}
+
+.texto{
+    color:black;
+    text-align:center;
+    line-height: 30px;
+    text-decoration:underline;
+    text-transform: capitalize;
+    text-indent: 2em;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}*/
+/*  
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color:red;
+}
+
+a:visited{
+    color: aqua;
+}
+
+a:hover{
+    color: cadetblue;
+}
+
+a:active{
+    background-color: blue;
+}*/
+/* 
+.texto::first-line{
+    color:hotpink;
+}
+
+.texto::first-letter{
+    color: red;
+    font-size: 45px;
+}
+
+.fecha::before{
+    content: 'día';
+}
+
+.fecha::after{
+    content: 'año';
+} */
+/* 
+ul{
+    list-style-type: square;
+    list-style-position: inside ;
+}
+
+ol{
+    list-style-type: georgian;
+    list-style-position: outside ;
+} */
+
+/*  .menu{
+    width: 200px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #7c7c7c;
+    border-bottom: none;
+}
+
+.menu li{
+    border-bottom: 1px solid #7c7c7c;
+    border-top: 1px solid #fff;
+    background: #F4F4F4;
+}
+
+.menu li a{
+    padding: .2em 0em .2em .5em;
+    display: block;
+    text-decoration: none;
+    color: #333
+}
+
+.menu li a:hover{
+    color:darkgoldenrod;
+}*/
+
+/*  .menu{
+    clear: both; /* elimina la adyacencia izq. y dech entre contenedores, para que no se sobrepongan. Si queremos sólo derecha o izquierda lo indicamos con right y left. */
+    /*float: left; /* con esto hacemos el menú flotante a la izquierda */
+   /* width: 100%; /* le indicamos que ocupe el 100% del espacio */
+    /*list-style: none; /* le quitamo los puntos que inician la lista desordenada */
+    /*margin: 0;
+    padding: 0;
+    border-left: 1px solid #7c7c7c;
+}*/
+
+/*.menu li{
+    float: left;
+}
+
+.menu li a{
+    padding: .3em;
+    display: block;
+    text-decoration: none;
+    color:#333;
+    background:#f4f4f4;
+    border-top: 1px solid #7c7c7c;
+    border-right: 1px solid #7c7c7c ;
+    border-bottom: 1px solid #7c7c7c;
+    /* El border left lo modificamos dentro de "ul" para que no se superpongan entre sí */
+/*  }*/
+
+/*.menu li a:hover{
+    color:deeppink;
+} /* damos color al menú cuando pasamos el cursos por encima */
+
+/* .sombra{
+    width: 300px;
+    height: 300px;
+    border:1px solid black;
+    margin: 100px;
+    box-shadow: -20px 20px 10px 10px grey;
+    /* si los px son en positivo, la sombra se mueve hacia la derecha y hacia abajo, sin son en negativo, hacia la izquierda y arriba. */
+/*}*/
+/*  
+.rojo{
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    background-color: red;
+    margin: 100px;
+    opacity: 0.5;
+}
+
+.azul{
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    background-color: blue;
+    position: relative; /* para que se coloque encima de la roja */
+    /*left: 250px;
+    bottom: 575px;
+    opacity: .3;
+/*}
+
+.amarillo{
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    background-color: yellow;
+    position: relative; /* para que se coloque encima de la azul */
+    /*left: 400px;
+    bottom: 100px;
+    z-index: 10; /* para que se posiciones por encima de todas */
+    /*opacity: 10%;*/
+/* }*/
+/* 
+.redondo{
+    width: 300px;
+    height: 300px;
+    background: black;
+    margin: 10px;
+    border-radius: 10px;/* si ponemos un border-radius de 300px, como las medidas del cuadrado son de 300x300, creará un círculo */
+/*}
+
+.esquinas{
+    width: 300px;
+    height: 300px;
+    background: grey;
+    margin: 10px;
+    border-radius: 300px;
+}
+
+.sombra2{
+    margin: 300px;
+    font-size: 48px;
+    text-shadow: grey 3px 3px ;
+} */
+
+
+table{
+    border-collapse: separate;
+    border-spacing: 10px 20px;
+    empty-cells: hide;
+    caption-side: top;
+}
